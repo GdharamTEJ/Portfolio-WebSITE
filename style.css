@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    color: #00ADB5;
+    background-color: #393E46;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 6%;
+}
+
+#teja {
+    color: #364F6B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#webapp {
+    color: #22A39F;
+}
+
+#wokex {
+    color: #F7A4A4;;
+}
