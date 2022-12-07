@@ -1,4 +1,4 @@
-a<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -8,7 +8,9 @@ a<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>💙 My Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Linked to CSS -->
+    <link rel="stylesheet" href="styles.css">
     
 </head>
 
@@ -21,16 +23,15 @@ a<!DOCTYPE html>
         <tr>
             <td><img src="images/profile.jpg" alt="profile" height="250"></td>
             <td><h2 id="teja">G. Teja</h2>
-                <p><em>Founder of <strong><a href="https://dev-xsallence.pantheonsite.io/" target="_main">Xsellence</a></strong></em></p>
+                <p><em>Founder of</em> <strong>"Xsellence"</strong> </p>
                 <p>I am a Graphic designer and a Full Stack Web Developer. I 💙 to design and develop new projects.</p></td>
         </tr>
         </table>
-    
         <hr>
 
         <!-- This is a Category -->
         <!-- Inline CSS -->
-        <h3 style="color: #F7A4A4;">Designing Skills</h3>
+        <h3 style="color: #22A39F;">Designing Skills</h3>
         <ol type="1">
             <li>Inkscape (Illustrator)</li>
             <li>Sketching logo's</li>
@@ -39,7 +40,7 @@ a<!DOCTYPE html>
         <hr>
 
         <!-- Created a seperate page for hobbies -->
-        <a href="hobbies.html" target="_main">My Hobbies</a>
+        <h3><a class="hob" href="hobbies.html" target="_main">My Hobbies</a></h3>
         <hr>
         
         <!-- This is a Category -->
@@ -50,11 +51,11 @@ a<!DOCTYPE html>
             <li>LinkedIn Certificate {Intro to Graphic Designing} :- <a href="https://www.linkedin.com/posts/g-teja-43913b219_activity-7003230780852252672-S8A9?utm_source=share&utm_medium=member_desktop" target="_main">Certificate</a></li>
         </ol>
 
-        <!-- This is a Category -->
+        <!-- These are IBM badges -->
         <!-- Inline CSS -->
         <h3 style="color: #8B7E74;">Digital Credentials [ IBM <em>Skills Build</em> ]</h3>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ac0fe89c-4e2e-4621-9084-b20be0940d63" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2e6111c5-3efe-4121-8711-81889ba018a3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div  data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ac0fe89c-4e2e-4621-9084-b20be0940d63" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div  data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2e6111c5-3efe-4121-8711-81889ba018a3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         <hr>
          
         <!-- Projects -->
@@ -62,15 +63,15 @@ a<!DOCTYPE html>
         <p style="color: #424874;"><em><b>Get ready to experience my finest project's ~</b></em></p>
         
         <!-- External CSS id="webapp" -->
-        <h4 id="webapp">Web Application :</h4>
-           <ul><li><h4><em><a href="https://dev-xsallence.pantheonsite.io/" target="_main">Xsellence</a></em></h4></li></ul>
+        <h4 class="webapp">Web Application :</h4>
+           <ul><li><h4><em><a id="X" href="https://dev-xsallence.pantheonsite.io/" target="_main">Xsellence</a></em></h4></li></ul>
            
-        <h4 id="webapp">Logo Designs :</h4>
+        <h4 class="webapp">Logo Designs :</h4>
         <hr>
         
         <!-- This is a Table -->
         <!-- External CSS id="wokex" -->
-        <h3 id="wokex">Work Experience :</h3>
+        <h3 class="wokex">Work Experience :</h3>
         <table cellspacing="10">
             <tr>
                 <th>Year</th>
@@ -88,7 +89,8 @@ a<!DOCTYPE html>
         <hr>
          
         <!-- This is a Table -->
-        <h3 id="wokex">Skills :</h3>
+        <!-- External CSS id="wokex" -->
+        <h3 class="wokex">Skills :</h3>
         <table cellspacing="20">
                 <tr>
                     <td>
@@ -136,8 +138,8 @@ a<!DOCTYPE html>
         <hr>
 
 
-        <!-- contact.html -->
-        <h3><a href="contact.html" target="_main">Contact Me</a></h3>
+        <!-- (Seperate page) contact.html -->
+        <h3><a id="con" href="contact.html" target="_main">Contact Me</a></h3>
         
 </body>
 </html>
